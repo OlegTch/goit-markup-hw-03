@@ -45,6 +45,30 @@ body {
   padding-bottom: 94px;
 }
 
+.section-feature {
+  padding-bottom: 47px;
+}
+
+.box-section {
+  padding-top: 47px;
+}
+
+
+/*========== скрываем заголовки ==========*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 
 /*========== элементы списка ==========*/
 
@@ -178,8 +202,7 @@ body {
 .hero-title {
   min-width: 696px;
   margin: 0 0 30px 0;
-  /*padding: 200px 452px 280px 452px;*/
-
+  
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -394,14 +417,6 @@ body {
   border-right: 1px solid #EEEEEE;
   padding: 20px 24px;
 }
-
-/* .image-project {
-  text-align: center;   
-} */
-
-/* .work-section-list .item-list {
-   
-} */
 
 /*========== end секция портфолио ==========*/
 
